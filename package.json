@@ -1,0 +1,26 @@
+{
+  "name": "static_dom",
+  "version": "1.0.0",
+  "description": "DSL for generating methods to access DOM",
+  "main": "static_dom_NODE.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxpleaner/static_dom.git"
+  },
+  "keywords": [
+    "dom",
+    "jquery",
+    "dsl",
+    "browser",
+    "recursion"
+  ],
+  "author": "maxpleaner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxpleaner/static_dom/issues"
+  },
+  "homepage": "https://github.com/maxpleaner/static_dom#readme"
+}
