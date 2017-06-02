@@ -1,6 +1,6 @@
 {
   "name": "static_dom",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "DSL for generating methods to access DOM",
   "main": "static_dom_NODE.js",
   "scripts": {

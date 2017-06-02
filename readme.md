@@ -55,6 +55,9 @@ dsl = StaticDom.build_dom_methods(tree)
 
 Now the `dsl` has functions `navbar`, `body`, and `main_content`.
 
+The generated methods can be copied to another other using `Object.assign` or
+the spread operator.
+
 The generated functions have the DOM lookup scoped to the parent and are
 cached by default.
 
@@ -75,7 +78,7 @@ The arguments are:
 previously added functions
 - _name_ (string) name of the function to be added
 - _selector_ (string) css selector
-- _parent_ (string) function name of the parent (will already be a function)
+- _parent_ (string) function name of the parent (will be undefined or a function)
 
 ```coffee
   @build_fn = (memo, name, selector, parent) =>
