@@ -30,7 +30,7 @@ tree = {
     selector: "body",
     children: {
       navbar: { selector: "#navbar" },
-      main_content: { selector: "#main-content }
+      main_content: { selector: "#main-content" }
     }
   }
 }
