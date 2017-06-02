@@ -91,7 +91,7 @@ previously added functions
 ```
 
 The other configurable method is only invoked from the default `build_fn`:
-it's `missing_dom_element(selector)` which, in it's default state, just prints
+it's `missing_dom_element(selector)` which, in its default state, just prints
 a warning message to the console when the length of a jQuery result is 0.
 This can be helpful in development, but can be easily disabled using
 `StaticDom.missing_dom_element = function(){}`
@@ -104,9 +104,9 @@ it more suitable for dynamic content:
 StaticDom.build_fn = function(memo, name, selector, parent) {
   return function() {
     if (parent){
-      return $(selector)
-    } else {
       return memo[parent]().find(selector)
+    } else {
+      return $(selector)
     }
   }
 }
