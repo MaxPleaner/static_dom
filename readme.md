@@ -78,7 +78,7 @@ The arguments are:
 previously added functions
 - _name_ (string) name of the function to be added
 - _selector_ (string) css selector
-- _parent_ (string) function name of the parent (will be undefined or a function)
+- _parent_ (string) function name of the parent (will be undefined or a string)
 
 ```coffee
   @build_fn = (memo, name, selector, parent) =>
